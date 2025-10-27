@@ -1,0 +1,40 @@
+✅ CHAT SERVER IS NOW RUNNING!
+=================================
+
+📍 SERVER URL: http://localhost:3000
+
+🎯 HOW TO USE:
+1. A login modal appears automatically
+2. Enter your username (e.g., "Alice", "Bob", "YourName")
+3. Click "Join Chat"
+4. Start chatting!
+
+🧪 TEST MULTIPLE USERS:
+- Open http://localhost:3000 in one browser
+- Enter username "Alice" and send messages
+- Open http://localhost:3000 in another browser (or incognito)
+- Enter username "Bob" and send messages
+- Watch messages appear in real-time!
+
+✨ FEATURES:
+- User registration/login form
+- Persistent sessions (cookies)
+- Multiple simultaneous users
+- Real-time messaging
+- Online user list
+- Message history
+
+🛑 TO STOP SERVER:
+Press Ctrl+C in the terminal
+
+🔄 TO RESTART:
+Run: npm start
+Or double-click: START.bat
+
+📝 CURRENT STATUS:
+✅ Node.js installed (v20.11.0)
+✅ Dependencies installed
+✅ Server running on port 3000
+✅ Database initialized
+✅ Ready to use!
+

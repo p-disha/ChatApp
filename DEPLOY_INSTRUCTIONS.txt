@@ -1,0 +1,81 @@
+🚀 DEPLOY TO RENDER - QUICK GUIDE
+===================================
+
+STEP 1: Push to GitHub
+-----------------------
+1. Go to https://github.com
+2. Click "New repository"
+3. Name it: websocket-chat
+4. Create repository (don't initialize)
+
+5. Open PowerShell in your project folder:
+   cd C:\Users\disha\websocket-chat
+   
+6. Run these commands:
+   git init
+   git add .
+   git commit -m "Initial commit - WebSocket chat app"
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/websocket-chat.git
+   git push -u origin main
+
+   (Replace YOUR_USERNAME with your GitHub username)
+
+
+STEP 2: Deploy on Render
+-------------------------
+1. Go to https://render.com
+2. Click "Sign Up" (or Login)
+3. Connect your GitHub account
+4. Click "New +" → "Web Service"
+5. Select your repository: websocket-chat
+6. Fill in:
+   
+   Name: websocket-chat
+   Region: Choose closest to you
+   Branch: main
+   
+   Build Command: (leave empty)
+   
+   Start Command: node server.js
+   
+   Instance Type: Free
+   
+7. Click "Create Web Service"
+8. Wait 2-3 minutes for deployment
+9. Your app will be live at: https://websocket-chat.onrender.com
+
+
+STEP 3: Test Your Deployment
+-----------------------------
+1. Visit your Render URL
+2. Register a new account
+3. Test group chat
+4. Test private messaging
+5. Open multiple windows to test multiple users
+
+
+⚠️ IMPORTANT NOTES
+------------------
+- Database RESETS on every restart (free tier)
+- Data is only stored while the app is running
+- Consider upgrading to paid plan for persistence
+- Or use external database (PostgreSQL)
+
+
+✅ READY TO DEPLOY!
+-------------------
+All files are configured for Render:
+✓ Procfile created
+✓ server.js updated for Render
+✓ Port configuration ready
+✓ All dependencies listed
+
+
+📝 ENVIRONMENT
+--------------
+Your app URL will be something like:
+https://websocket-chat-abc123.onrender.com
+
+Share this URL with friends to test!
+
