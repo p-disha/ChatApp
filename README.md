@@ -143,9 +143,8 @@ This is a basic implementation suitable for development. For production use, con
 - HTTPS/WSS
 - SQL injection prevention (already using prepared statements)
 
-## License
 
-MIT
+
 
 
 
